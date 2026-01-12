@@ -22,3 +22,8 @@ def test_add_numbers():
     expected_out2 = 303
     assert out == expected_out, f"Expected {expected_out} but got {out}"
     assert out2 == expected_out2, f"Expected {expected_out2} but got {out2}"
+
+
+def test_add_zeros():
+    out = add_numbers(0, 0)
+    assert out == 0, f"Expected 0, but got {out}"
