@@ -1,0 +1,11 @@
+name: dsci524
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - matplotlib
+  - hatch
+  - copier
+  - numpy
+prefix: /Users/harrisonlee/miniforge3/envs/dsci524
