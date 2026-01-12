@@ -8,4 +8,5 @@ dependencies:
   - hatch
   - copier
   - numpy
+  - pytest
 prefix: /Users/harrisonlee/miniforge3/envs/dsci524
