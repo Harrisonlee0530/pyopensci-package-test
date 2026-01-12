@@ -9,6 +9,7 @@ module.
 
 from pyospackage_hli76_test.example import add_numbers
 
+
 def test_add_numbers():
     """
     Test that add_numbers works as expected.
@@ -16,5 +17,8 @@ def test_add_numbers():
     A single line docstring for tests is generally sufficient.
     """
     out = add_numbers(1, 2)
+    out2 = add_numbers(101, 202)
     expected_out = 3
-    assert  out == expected_out, f"Expected {expected_out} but got {out}"
+    expected_out2 = 303
+    assert out == expected_out, f"Expected {expected_out} but got {out}"
+    assert out2 == expected_out2, f"Expected {expected_out2} but got {out2}"
